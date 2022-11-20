@@ -11,7 +11,7 @@ spec:
     metadata:
       labels:
         app: ticket-auth
-    specs:
+    spec:
       containers:
         - name: ticket-auth
           image: mfdsix/udemy-microservices-ticket-auth
